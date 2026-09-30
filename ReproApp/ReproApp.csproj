@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <WolverineVersion>6.39.1</WolverineVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WolverineFx.Postgresql" Version="$(WolverineVersion)" />
+    <PackageReference Include="WolverineFx.RuntimeCompilation" Version="$(WolverineVersion)" />
+  </ItemGroup>
+
+</Project>
